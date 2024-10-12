@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.inp {
+    @apply bg-transparent border-2 text-base text-neutral-darkblue outline-none px-4 py-2 rounded-md
+}
+
+.in {
+    @apply bg-transparent w-full outline-none
+}
+
+.in::placeholder {
+    @apply text-neutral-darkblue font-semibold text-base
+}
+
+.btn {
+    @apply bg-primary-green text-white text-base font-semibold uppercase py-2 px-5 text-center w-full rounded-md mt-4 shadow-sm shadow-neutral-darkblue hover:bg-green-300
+}
+
+.err {
+    @apply text-primary-red text-xs font-semibold italic 
+}
